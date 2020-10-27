@@ -10,6 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/all_romance"
+        android:orientation="vertical"
         >
         <androidx.cardview.widget.CardView
             android:id="@+id/romantic1"
@@ -50,7 +51,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/romantic1"
+            android:id="@+id/romantic2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="9dp"
@@ -61,10 +62,121 @@
                 android:layout_margin="5dp"
                 android:padding="10dp"
                 android:orientation="vertical"
-                android:background="@drawable/romantic1"
+                android:background="@drawable/romantic2"
                 />
             <TextView
-                android:id="@+id/romantic1_description"
+                android:id="@+id/romantic2_description"
+                android:layout_width="190dp"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:layout_height="300dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="80dp"
+                android:text="@string/fantasy_2"
+                />
+            <TextView
+                android:id="@+id/romantic2_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="50dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="10dp"
+                android:text="Roman2"
+                android:textStyle="bold"
+                android:textSize="35dp"
+                android:layout_marginLeft="80dp" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/romantic3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="9dp"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="300dp"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:background="@drawable/romantic3"
+                />
+            <TextView
+                android:id="@+id/romantic3_description"
+                android:layout_width="190dp"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:layout_height="300dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="80dp"
+                android:text="@string/fantasy_3"
+                />
+            <TextView
+                android:id="@+id/romantic3_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="50dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="10dp"
+                android:text="Roman3"
+                android:textStyle="bold"
+                android:textSize="35dp"
+                android:layout_marginLeft="80dp" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/romantic4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="9dp"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="300dp"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:background="@drawable/romantic4"
+                />
+            <TextView
+                android:id="@+id/romantic4_description"
+                android:layout_width="190dp"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:layout_height="300dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="80dp"
+                android:text="@string/fantasy_4"
+                />
+            <TextView
+                android:id="@+id/romantic4_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="50dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="10dp"
+                android:text="Roman4"
+                android:textStyle="bold"
+                android:textSize="35dp"
+                android:layout_marginLeft="80dp" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/romantic5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="9dp"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="300dp"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:background="@drawable/romantic5"
+                />
+            <TextView
+                android:id="@+id/romantic5_description"
                 android:layout_width="190dp"
                 android:textStyle="bold"
                 android:textSize="22dp"
@@ -75,7 +187,192 @@
                 android:text="@string/fantasy_1"
                 />
             <TextView
-                android:id="@+id/romantic1_title"
+                android:id="@+id/romantic5_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="50dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="10dp"
+                android:text="Roman5"
+                android:textStyle="bold"
+                android:textSize="35dp"
+                android:layout_marginLeft="80dp" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/romantic6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="9dp"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="300dp"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:background="@drawable/romantic6"
+                />
+            <TextView
+                android:id="@+id/romantic6_description"
+                android:layout_width="190dp"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:layout_height="300dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="80dp"
+                android:text="@string/fantasy_6"
+                />
+            <TextView
+                android:id="@+id/romantic6_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="50dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="10dp"
+                android:text="Roman6"
+                android:textStyle="bold"
+                android:textSize="35dp"
+                android:layout_marginLeft="80dp" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/romantic7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="9dp"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="300dp"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:background="@drawable/romantic6"
+                />
+            <TextView
+                android:id="@+id/romantic7_description"
+                android:layout_width="190dp"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:layout_height="300dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="80dp"
+                android:text="@string/fantasy_7"
+                />
+            <TextView
+                android:id="@+id/romantic7_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="50dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="10dp"
+                android:text="Roman7"
+                android:textStyle="bold"
+                android:textSize="35dp"
+                android:layout_marginLeft="80dp" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/romantic8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="9dp"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="300dp"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:background="@drawable/romantic8"
+                />
+            <TextView
+                android:id="@+id/romantic8_description"
+                android:layout_width="190dp"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:layout_height="300dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="80dp"
+                android:text="@string/fantasy_8"
+                />
+            <TextView
+                android:id="@+id/romantic8_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="50dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="10dp"
+                android:text="Roman8"
+                android:textStyle="bold"
+                android:textSize="35dp"
+                android:layout_marginLeft="80dp" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/romantic9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="9dp"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="300dp"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:background="@drawable/romantic9"
+                />
+            <TextView
+                android:id="@+id/romantic9_description"
+                android:layout_width="190dp"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:layout_height="300dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="80dp"
+                android:text="@string/fantasy_9"
+                />
+            <TextView
+                android:id="@+id/romantic9_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="50dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="10dp"
+                android:text="Roman9"
+                android:textStyle="bold"
+                android:textSize="35dp"
+                android:layout_marginLeft="80dp" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/romantic10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="9dp"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="300dp"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:background="@drawable/romanti10"
+                />
+            <TextView
+                android:id="@+id/romantic10_description"
+                android:layout_width="190dp"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:layout_height="300dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="80dp"
+                android:text="@string/fantasy_10"
+                />
+            <TextView
+                android:id="@+id/romantic10_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="50dp"
@@ -87,7 +384,7 @@
                 android:layout_marginLeft="80dp" />
         </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
-            android:id="@+id/romantic1"
+            android:id="@+id/romantic11"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="9dp"
@@ -98,10 +395,10 @@
                 android:layout_margin="5dp"
                 android:padding="10dp"
                 android:orientation="vertical"
-                android:background="@drawable/romantic1"
+                android:background="@drawable/romantic11"
                 />
             <TextView
-                android:id="@+id/romantic1_description"
+                android:id="@+id/romantic11_description"
                 android:layout_width="190dp"
                 android:textStyle="bold"
                 android:textSize="22dp"
@@ -109,10 +406,47 @@
                 android:layout_marginStart="200dp"
                 android:layout_marginTop="80dp"
                 android:layout_marginLeft="80dp"
-                android:text="@string/fantasy_1"
+                android:text="@string/fantasy_11"
                 />
             <TextView
-                android:id="@+id/romantic1_title"
+                android:id="@+id/romantic11_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="50dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="10dp"
+                android:text="Roman11"
+                android:textStyle="bold"
+                android:textSize="35dp"
+                android:layout_marginLeft="80dp" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/romantic12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="9dp"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="300dp"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:background="@drawable/romantic12"
+                />
+            <TextView
+                android:id="@+id/romantic12_description"
+                android:layout_width="190dp"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:layout_height="300dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="80dp"
+                android:text="@string/fantasy_12"
+                />
+            <TextView
+                android:id="@+id/romantic12_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="50dp"
@@ -124,7 +458,7 @@
                 android:layout_marginLeft="80dp" />
         </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
-            android:id="@+id/romantic1"
+            android:id="@+id/romantic13"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="9dp"
@@ -135,10 +469,10 @@
                 android:layout_margin="5dp"
                 android:padding="10dp"
                 android:orientation="vertical"
-                android:background="@drawable/romantic1"
+                android:background="@drawable/romantic13"
                 />
             <TextView
-                android:id="@+id/romantic1_description"
+                android:id="@+id/romantic13_description"
                 android:layout_width="190dp"
                 android:textStyle="bold"
                 android:textSize="22dp"
@@ -146,22 +480,22 @@
                 android:layout_marginStart="200dp"
                 android:layout_marginTop="80dp"
                 android:layout_marginLeft="80dp"
-                android:text="@string/fantasy_1"
+                android:text="@string/fantasy_13"
                 />
             <TextView
-                android:id="@+id/romantic1_title"
+                android:id="@+id/romantic13_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="50dp"
                 android:layout_marginStart="200dp"
                 android:layout_marginTop="10dp"
-                android:text="Roman1"
+                android:text="Roman13"
                 android:textStyle="bold"
                 android:textSize="35dp"
                 android:layout_marginLeft="80dp" />
         </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
-            android:id="@+id/romantic1"
+            android:id="@+id/romantic14"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="9dp"
@@ -172,10 +506,10 @@
                 android:layout_margin="5dp"
                 android:padding="10dp"
                 android:orientation="vertical"
-                android:background="@drawable/romantic1"
+                android:background="@drawable/romantic14"
                 />
             <TextView
-                android:id="@+id/romantic1_description"
+                android:id="@+id/romantic14_description"
                 android:layout_width="190dp"
                 android:textStyle="bold"
                 android:textSize="22dp"
@@ -183,22 +517,22 @@
                 android:layout_marginStart="200dp"
                 android:layout_marginTop="80dp"
                 android:layout_marginLeft="80dp"
-                android:text="@string/fantasy_1"
+                android:text="@string/fantasy_14"
                 />
             <TextView
-                android:id="@+id/romantic1_title"
+                android:id="@+id/romantic14_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="50dp"
                 android:layout_marginStart="200dp"
                 android:layout_marginTop="10dp"
-                android:text="Roman1"
+                android:text="Roman14"
                 android:textStyle="bold"
                 android:textSize="35dp"
                 android:layout_marginLeft="80dp" />
         </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
-            android:id="@+id/romantic1"
+            android:id="@+id/romantic15"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="9dp"
@@ -209,10 +543,10 @@
                 android:layout_margin="5dp"
                 android:padding="10dp"
                 android:orientation="vertical"
-                android:background="@drawable/romantic1"
+                android:background="@drawable/romantic15"
                 />
             <TextView
-                android:id="@+id/romantic1_description"
+                android:id="@+id/romantic15_description"
                 android:layout_width="190dp"
                 android:textStyle="bold"
                 android:textSize="22dp"
@@ -220,349 +554,16 @@
                 android:layout_marginStart="200dp"
                 android:layout_marginTop="80dp"
                 android:layout_marginLeft="80dp"
-                android:text="@string/fantasy_1"
+                android:text="@string/fantasy_15"
                 />
             <TextView
-                android:id="@+id/romantic1_title"
+                android:id="@+id/romantic15_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="50dp"
                 android:layout_marginStart="200dp"
                 android:layout_marginTop="10dp"
-                android:text="Roman1"
-                android:textStyle="bold"
-                android:textSize="35dp"
-                android:layout_marginLeft="80dp" />
-        </androidx.cardview.widget.CardView>
-        <androidx.cardview.widget.CardView
-            android:id="@+id/romantic1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="9dp"
-            android:orientation="vertical">
-            <ImageView
-                android:layout_width="190dp"
-                android:layout_height="300dp"
-                android:layout_margin="5dp"
-                android:padding="10dp"
-                android:orientation="vertical"
-                android:background="@drawable/romantic1"
-                />
-            <TextView
-                android:id="@+id/romantic1_description"
-                android:layout_width="190dp"
-                android:textStyle="bold"
-                android:textSize="22dp"
-                android:layout_height="300dp"
-                android:layout_marginStart="200dp"
-                android:layout_marginTop="80dp"
-                android:layout_marginLeft="80dp"
-                android:text="@string/fantasy_1"
-                />
-            <TextView
-                android:id="@+id/romantic1_title"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="50dp"
-                android:layout_marginStart="200dp"
-                android:layout_marginTop="10dp"
-                android:text="Roman1"
-                android:textStyle="bold"
-                android:textSize="35dp"
-                android:layout_marginLeft="80dp" />
-        </androidx.cardview.widget.CardView>
-        <androidx.cardview.widget.CardView
-            android:id="@+id/romantic1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="9dp"
-            android:orientation="vertical">
-            <ImageView
-                android:layout_width="190dp"
-                android:layout_height="300dp"
-                android:layout_margin="5dp"
-                android:padding="10dp"
-                android:orientation="vertical"
-                android:background="@drawable/romantic1"
-                />
-            <TextView
-                android:id="@+id/romantic1_description"
-                android:layout_width="190dp"
-                android:textStyle="bold"
-                android:textSize="22dp"
-                android:layout_height="300dp"
-                android:layout_marginStart="200dp"
-                android:layout_marginTop="80dp"
-                android:layout_marginLeft="80dp"
-                android:text="@string/fantasy_1"
-                />
-            <TextView
-                android:id="@+id/romantic1_title"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="50dp"
-                android:layout_marginStart="200dp"
-                android:layout_marginTop="10dp"
-                android:text="Roman1"
-                android:textStyle="bold"
-                android:textSize="35dp"
-                android:layout_marginLeft="80dp" />
-        </androidx.cardview.widget.CardView>
-        <androidx.cardview.widget.CardView
-            android:id="@+id/romantic1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="9dp"
-            android:orientation="vertical">
-            <ImageView
-                android:layout_width="190dp"
-                android:layout_height="300dp"
-                android:layout_margin="5dp"
-                android:padding="10dp"
-                android:orientation="vertical"
-                android:background="@drawable/romantic1"
-                />
-            <TextView
-                android:id="@+id/romantic1_description"
-                android:layout_width="190dp"
-                android:textStyle="bold"
-                android:textSize="22dp"
-                android:layout_height="300dp"
-                android:layout_marginStart="200dp"
-                android:layout_marginTop="80dp"
-                android:layout_marginLeft="80dp"
-                android:text="@string/fantasy_1"
-                />
-            <TextView
-                android:id="@+id/romantic1_title"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="50dp"
-                android:layout_marginStart="200dp"
-                android:layout_marginTop="10dp"
-                android:text="Roman1"
-                android:textStyle="bold"
-                android:textSize="35dp"
-                android:layout_marginLeft="80dp" />
-        </androidx.cardview.widget.CardView>
-        <androidx.cardview.widget.CardView
-            android:id="@+id/romantic1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="9dp"
-            android:orientation="vertical">
-            <ImageView
-                android:layout_width="190dp"
-                android:layout_height="300dp"
-                android:layout_margin="5dp"
-                android:padding="10dp"
-                android:orientation="vertical"
-                android:background="@drawable/romantic1"
-                />
-            <TextView
-                android:id="@+id/romantic1_description"
-                android:layout_width="190dp"
-                android:textStyle="bold"
-                android:textSize="22dp"
-                android:layout_height="300dp"
-                android:layout_marginStart="200dp"
-                android:layout_marginTop="80dp"
-                android:layout_marginLeft="80dp"
-                android:text="@string/fantasy_1"
-                />
-            <TextView
-                android:id="@+id/romantic1_title"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="50dp"
-                android:layout_marginStart="200dp"
-                android:layout_marginTop="10dp"
-                android:text="Roman1"
-                android:textStyle="bold"
-                android:textSize="35dp"
-                android:layout_marginLeft="80dp" />
-        </androidx.cardview.widget.CardView>
-        <androidx.cardview.widget.CardView
-            android:id="@+id/romantic1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="9dp"
-            android:orientation="vertical">
-            <ImageView
-                android:layout_width="190dp"
-                android:layout_height="300dp"
-                android:layout_margin="5dp"
-                android:padding="10dp"
-                android:orientation="vertical"
-                android:background="@drawable/romantic1"
-                />
-            <TextView
-                android:id="@+id/romantic1_description"
-                android:layout_width="190dp"
-                android:textStyle="bold"
-                android:textSize="22dp"
-                android:layout_height="300dp"
-                android:layout_marginStart="200dp"
-                android:layout_marginTop="80dp"
-                android:layout_marginLeft="80dp"
-                android:text="@string/fantasy_1"
-                />
-            <TextView
-                android:id="@+id/romantic1_title"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="50dp"
-                android:layout_marginStart="200dp"
-                android:layout_marginTop="10dp"
-                android:text="Roman1"
-                android:textStyle="bold"
-                android:textSize="35dp"
-                android:layout_marginLeft="80dp" />
-        </androidx.cardview.widget.CardView>
-        <androidx.cardview.widget.CardView
-            android:id="@+id/romantic1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="9dp"
-            android:orientation="vertical">
-            <ImageView
-                android:layout_width="190dp"
-                android:layout_height="300dp"
-                android:layout_margin="5dp"
-                android:padding="10dp"
-                android:orientation="vertical"
-                android:background="@drawable/romantic1"
-                />
-            <TextView
-                android:id="@+id/romantic1_description"
-                android:layout_width="190dp"
-                android:textStyle="bold"
-                android:textSize="22dp"
-                android:layout_height="300dp"
-                android:layout_marginStart="200dp"
-                android:layout_marginTop="80dp"
-                android:layout_marginLeft="80dp"
-                android:text="@string/fantasy_1"
-                />
-            <TextView
-                android:id="@+id/romantic1_title"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="50dp"
-                android:layout_marginStart="200dp"
-                android:layout_marginTop="10dp"
-                android:text="Roman1"
-                android:textStyle="bold"
-                android:textSize="35dp"
-                android:layout_marginLeft="80dp" />
-        </androidx.cardview.widget.CardView>
-        <androidx.cardview.widget.CardView
-            android:id="@+id/romantic1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="9dp"
-            android:orientation="vertical">
-            <ImageView
-                android:layout_width="190dp"
-                android:layout_height="300dp"
-                android:layout_margin="5dp"
-                android:padding="10dp"
-                android:orientation="vertical"
-                android:background="@drawable/romantic1"
-                />
-            <TextView
-                android:id="@+id/romantic1_description"
-                android:layout_width="190dp"
-                android:textStyle="bold"
-                android:textSize="22dp"
-                android:layout_height="300dp"
-                android:layout_marginStart="200dp"
-                android:layout_marginTop="80dp"
-                android:layout_marginLeft="80dp"
-                android:text="@string/fantasy_1"
-                />
-            <TextView
-                android:id="@+id/romantic1_title"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="50dp"
-                android:layout_marginStart="200dp"
-                android:layout_marginTop="10dp"
-                android:text="Roman1"
-                android:textStyle="bold"
-                android:textSize="35dp"
-                android:layout_marginLeft="80dp" />
-        </androidx.cardview.widget.CardView>
-        <androidx.cardview.widget.CardView
-            android:id="@+id/romantic1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="9dp"
-            android:orientation="vertical">
-            <ImageView
-                android:layout_width="190dp"
-                android:layout_height="300dp"
-                android:layout_margin="5dp"
-                android:padding="10dp"
-                android:orientation="vertical"
-                android:background="@drawable/romantic1"
-                />
-            <TextView
-                android:id="@+id/romantic1_description"
-                android:layout_width="190dp"
-                android:textStyle="bold"
-                android:textSize="22dp"
-                android:layout_height="300dp"
-                android:layout_marginStart="200dp"
-                android:layout_marginTop="80dp"
-                android:layout_marginLeft="80dp"
-                android:text="@string/fantasy_1"
-                />
-            <TextView
-                android:id="@+id/romantic1_title"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="50dp"
-                android:layout_marginStart="200dp"
-                android:layout_marginTop="10dp"
-                android:text="Roman1"
-                android:textStyle="bold"
-                android:textSize="35dp"
-                android:layout_marginLeft="80dp" />
-        </androidx.cardview.widget.CardView>
-        <androidx.cardview.widget.CardView
-            android:id="@+id/romantic1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="9dp"
-            android:orientation="vertical">
-            <ImageView
-                android:layout_width="190dp"
-                android:layout_height="300dp"
-                android:layout_margin="5dp"
-                android:padding="10dp"
-                android:orientation="vertical"
-                android:background="@drawable/romantic1"
-                />
-            <TextView
-                android:id="@+id/romantic1_description"
-                android:layout_width="190dp"
-                android:textStyle="bold"
-                android:textSize="22dp"
-                android:layout_height="300dp"
-                android:layout_marginStart="200dp"
-                android:layout_marginTop="80dp"
-                android:layout_marginLeft="80dp"
-                android:text="@string/fantasy_1"
-                />
-            <TextView
-                android:id="@+id/romantic1_title"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="50dp"
-                android:layout_marginStart="200dp"
-                android:layout_marginTop="10dp"
-                android:text="Roman1"
+                android:text="Roman15"
                 android:textStyle="bold"
                 android:textSize="35dp"
                 android:layout_marginLeft="80dp" />

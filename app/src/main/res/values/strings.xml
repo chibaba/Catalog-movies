@@ -7,58 +7,5 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-    <string name="menu_home">Action Movies</string>
-    <string name="action_1">Here at Man of Many, we love all things that go ‘boom’, in the night. Or during the day for that matter</string>
-    <string name="action_2">Considered one of the all-time classics, Apocalypse Now is directed by industry heavyweight, Francis Ford</string>
-    <string name="action_3">Undeniably one of the best sci-fi movies out there, The Matrix also totally holds it’s own as one of the best action movies of all time.</string>
-    <string name="action_4">mean come on. This scene. Unbeatable stuff. Host to a slew of Hollywood heavyweights</string>
-    <string name="action_5">One of the most visually arresting action films of all time, Mad Max: Fury Road is a worthy continuation of an already iconic series of films.</string>
-    <string name="action_6">Director James Cameron’s magnum opus, Terminator 2: Judgment Day is an impossibly slick action flick</string>
-    <string name="action_7">Whilst we were tempted to save this one for a ‘Best Christmas Movies’ list, Die Hard is an O.G action flick that deserves</string>
-    <string name="action_8">Arguably Spielberg’s best film, aside from maybe Schindler’s List, Saving Private Ryan is one of the most </string>
-    <string name="action_9"> The little franchise that could. The original John Wick film was an indie-film as far as action movie budgets are concerned</string>
-    <string name="action_10">We’d be remiss in not including the highest-grossing film of all time – which just so happens to also be a </string>
-    <string name="action_11">The most sophisticated Bond film, Skyfall was truly the film to bring the Bond series – and the once two-dimensional James Bond charact</string>
-    <string name="action_12">From Director Quentin Tarrantino, Inglorious Basterds is one of the greats. Not just as far as action movies go, but outside of genre’s entirely</string>
-    <string name="action_13">Yet another Marvel entry, the first Iron Man breathed life into an otherwise limp set of superhero films</string>
-    <string name="action_14">The final film in Jackson’s basically perfect adaptation of Tolkiens masterwork, Return Of The King is, </string>
-    <string name="action_15">Highly-stylised, and superbly acted, the story of Leonidus and his 300 was brought to life by Zack Snyder in a way that</string>
-
-
-    <string name="menu_gallery">Fantasy Movies</string>
-    <string name="fantasy_1">Here at Man of Many, we love all things that go ‘boom’, in the night. Or during the day for that matter</string>
-    <string name="fantasy_2">Considered one of the all-time classics, Apocalypse Now is directed by industry heavyweight, Francis Ford</string>
-    <string name="fantasy_3">Undeniably one of the best sci-fi movies out there, The Matrix also totally holds it’s own as one of the best action movies of all time.</string>
-    <string name="fantasy_4">mean come on. This scene. Unbeatable stuff. Host to a slew of Hollywood heavyweights</string>
-    <string name="fantasy_5">One of the most visually arresting action films of all time, Mad Max: Fury Road is a worthy continuation of an already iconic series of films.</string>
-    <string name="fantasy_6">Director James Cameron’s magnum opus, Terminator 2: Judgment Day is an impossibly slick action flick</string>
-    <string name="fantasy_7">Whilst we were tempted to save this one for a ‘Best Christmas Movies’ list, Die Hard is an O.G action flick that deserves</string>
-    <string name="fantasy_8">Arguably Spielberg’s best film, aside from maybe Schindler’s List, Saving Private Ryan is one of the most </string>
-    <string name="fantasy_9"> The little franchise that could. The original John Wick film was an indie-film as far as action movie budgets are concerned</string>
-    <string name="fantasy_10">We’d be remiss in not including the highest-grossing film of all time – which just so happens to also be a </string>
-    <string name="fantasy_11">The most sophisticated Bond film, Skyfall was truly the film to bring the Bond series – and the once two-dimensional James Bond charact</string>
-    <string name="fantasy_12">From Director Quentin Tarrantino, Inglorious Basterds is one of the greats. Not just as far as action movies go, but outside of genre’s entirely</string>
-    <string name="fantasy_13">Yet another Marvel entry, the first Iron Man breathed life into an otherwise limp set of superhero films</string>
-    <string name="fantasy_14">The final film in Jackson’s basically perfect adaptation of Tolkiens masterwork, Return Of The King is, </string>
-    <string name="fantasy_15">Highly-stylised, and superbly acted, the story of Leonidus and his 300 was brought to life by Zack Snyder in a way that</string>
-
-
-    <string name="menu_slideshow">Romantic Movies</string>
-
-    <string name="romantic_1">Here at Man of Many, we love all things that go ‘boom’, in the night. Or during the day for that matter</string>
-    <string name="romantic_2">Considered one of the all-time classics, Apocalypse Now is directed by industry heavyweight, Francis Ford</string>
-    <string name="romantic_3">Undeniably one of the best sci-fi movies out there, The Matrix also totally holds it’s own as one of the best action movies of all time.</string>
-    <string name="romantic_4">mean come on. This scene. Unbeatable stuff. Host to a slew of Hollywood heavyweights</string>
-    <string name="romantic_5">One of the most visually arresting action films of all time, Mad Max: Fury Road is a worthy continuation of an already iconic series of films.</string>
-    <string name="romantic_6">Director James Cameron’s magnum opus, Terminator 2: Judgment Day is an impossibly slick action flick</string>
-    <string name="romantic_7">Whilst we were tempted to save this one for a ‘Best Christmas Movies’ list, Die Hard is an O.G action flick that deserves</string>
-    <string name="romantic_8">Arguably Spielberg’s best film, aside from maybe Schindler’s List, Saving Private Ryan is one of the most </string>
-    <string name="romantic_9"> The little franchise that could. The original John Wick film was an indie-film as far as action movie budgets are concerned</string>
-    <string name="romantic_10">We’d be remiss in not including the highest-grossing film of all time – which just so happens to also be a </string>
-    <string name="romantic_11">The most sophisticated Bond film, Skyfall was truly the film to bring the Bond series – and the once two-dimensional James Bond charact</string>
-    <string name="romantic_12">From Director Quentin Tarrantino, Inglorious Basterds is one of the greats. Not just as far as action movies go, but outside of genre’s entirely</string>
-    <string name="romantic_13">Yet another Marvel entry, the first Iron Man breathed life into an otherwise limp set of superhero films</string>
-    <string name="romantic_14">The final film in Jackson’s basically perfect adaptation of Tolkiens masterwork, Return Of The King is, </string>
-    <string name="romantic_15">Highly-stylised, and superbly acted, the story of Leonidus and his 300 was brought to life by Zack Snyder in a way that</string>
 
 </resources>

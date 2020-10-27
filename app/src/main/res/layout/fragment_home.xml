@@ -16,7 +16,6 @@
             android:id="@+id/action1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="onShowDetails"
             android:padding="9dp"
             android:orientation="vertical">
             <ImageView
@@ -29,10 +28,10 @@
                 />
             <TextView
                 android:id="@+id/action_description"
-                android:layout_width="wrap_content"
+                android:layout_width="190dp"
                 android:textStyle="bold"
                 android:textSize="22dp"
-                android:layout_height="wrap_content"
+                android:layout_height="300dp"
                 android:layout_marginStart="200dp"
                 android:layout_marginTop="80dp"
                 android:layout_marginLeft="80dp"
@@ -54,7 +53,6 @@
             android:id="@+id/action2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="onShowDetails"
             android:padding="9dp"
             android:orientation="vertical">
             <ImageView
@@ -67,10 +65,10 @@
                 />
             <TextView
                 android:id="@+id/action2_description"
-                android:layout_width="wrap_content"
+                android:layout_width="190dp"
                 android:textStyle="bold"
                 android:textSize="30dp"
-                android:layout_height="wrap_content"
+                android:layout_height="200dp"
                 android:layout_marginStart="200dp"
                 android:layout_marginTop="80dp"
                 android:layout_marginLeft="80dp"
@@ -92,7 +90,6 @@
             android:id="@+id/action3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="onShowDetails"
             android:padding="9dp"
             android:orientation="vertical">
             <ImageView
@@ -130,7 +127,6 @@
             android:id="@+id/action4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="onShowDetails"
             android:padding="9dp"
             android:orientation="vertical">
             <ImageView
@@ -168,7 +164,6 @@
             android:id="@+id/action5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="onShowDetails"
             android:padding="9dp"
             android:orientation="vertical">
             <ImageView
@@ -206,7 +201,6 @@
             android:id="@+id/action6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="onShowDetails"
             android:padding="9dp"
             android:orientation="vertical">
             <ImageView
@@ -244,7 +238,6 @@
             android:id="@+id/action7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="onShowDetails"
             android:padding="9dp"
             android:orientation="vertical">
             <ImageView
@@ -281,7 +274,6 @@
         <androidx.cardview.widget.CardView
             android:id="@+id/action8"
             android:layout_width="match_parent"
-            android:onClick="onShowDetails"
             android:layout_height="wrap_content"
             android:padding="9dp"
             android:orientation="vertical">
@@ -320,7 +312,6 @@
             android:id="@+id/action9"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="onShowDetails"
             android:padding="9dp"
             android:orientation="vertical">
             <ImageView
@@ -357,7 +348,6 @@
         <androidx.cardview.widget.CardView
             android:id="@+id/action10"
             android:layout_width="match_parent"
-            android:onClick="onShowDetails"
             android:layout_height="wrap_content"
             android:padding="9dp"
             android:orientation="vertical">
@@ -396,7 +386,6 @@
             android:id="@+id/action11"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="onShowDetails"
             android:padding="9dp"
             android:orientation="vertical">
             <ImageView
@@ -433,7 +422,6 @@
         <androidx.cardview.widget.CardView
             android:id="@+id/action12"
             android:layout_width="match_parent"
-            android:onClick="onShowDetails"
             android:layout_height="wrap_content"
             android:padding="9dp"
             android:orientation="vertical">
@@ -471,7 +459,6 @@
         <androidx.cardview.widget.CardView
             android:id="@+id/action13"
             android:layout_width="match_parent"
-            android:onClick="onShowDetails"
             android:layout_height="wrap_content"
             android:padding="9dp"
             android:orientation="vertical">
@@ -510,7 +497,6 @@
             android:id="@+id/action14"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="onShowDetails"
             android:padding="9dp"
             android:orientation="vertical">
             <ImageView
@@ -548,7 +534,6 @@
             android:id="@+id/action15"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="onShowDetails"
             android:padding="9dp"
             android:orientation="vertical">
             <ImageView
