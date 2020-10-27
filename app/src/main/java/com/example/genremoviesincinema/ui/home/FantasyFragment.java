@@ -14,7 +14,7 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.example.genremoviesincinema.R;
 
-public class HomeFragment extends Fragment {
+public class FantasyFragment extends Fragment {
 
     private HomeViewModel homeViewModel;
 

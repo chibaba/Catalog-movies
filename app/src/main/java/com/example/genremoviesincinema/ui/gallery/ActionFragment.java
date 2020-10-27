@@ -14,7 +14,7 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.example.genremoviesincinema.R;
 
-public class GalleryFragment extends Fragment {
+public class ActionFragment extends Fragment {
 
     private GalleryViewModel galleryViewModel;
 
@@ -22,7 +22,7 @@ public class GalleryFragment extends Fragment {
                              ViewGroup container, Bundle savedInstanceState) {
         galleryViewModel =
                 new ViewModelProvider(this).get(GalleryViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_gallery, container, false);
+        View root = inflater.inflate(R.layout.fragment_detail, container, false);
         final TextView textView = root.findViewById(R.id.all_fantasy);
         galleryViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
