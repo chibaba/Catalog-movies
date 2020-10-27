@@ -1,11 +1,21 @@
 <resources>
     <string name="app_name">Genre Movies in Cinema</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">In Cinemas</string>
-    <string name="nav_header_subtitle">Get the best of your movie genres</string>
-    <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
+    <string name="Action_movie">Best of Action Movies</string>
+    <string name="Comedy_movie">Best of Comedy Movies</string>
+    <string name="Drama_movie">Best of Drama Movies</string>
+    <string name="Action_movie">Best of Action Movies</string>
+    <string name="Action_movie">Best of Action Movies</string>
+    <string name="Action_movie">Best of Action Movies</string>
+    <string name="Action_movie">Best of Action Movies</string>
+    <string name="Action_movie">Best of Action Movies</string>
+    <string name="Action_movie">Best of Action Movies</string>
+    <string name="Action_movie">Best of Action Movies</string>
+    <string name="Action_movie">Best of Action Movies</string>
+    <string name="Action_movie">Best of Action Movies</string>
+    <string name="Action_movie">Best of Action Movies</string>
+    <string name="Action_movie">Best of Action Movies</string>
+    <string name="Action_movie">Best of Action Movies</string>
+    <string name="Action_movie">Best of Action Movies</string>
 
 
 </resources>
