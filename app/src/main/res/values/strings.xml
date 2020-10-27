@@ -6,6 +6,7 @@
     <string name="username">shootme@gmail.com</string>
     <string name="image_description">Image Description</string>
     <string name="Present_Genre">Present Genre</string>
+    <string name="movie_title">movietitle</string>
     <string name="nav_close_drawer">Close Navigation drawer</string>
     <string name="release_date">release date</string>
     <string name="download">Download</string>
