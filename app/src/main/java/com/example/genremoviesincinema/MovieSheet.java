@@ -37,150 +37,142 @@ public class MovieSheet {
                 "Joe and Anthony Russo,","contraction", 4.56f);
         actionMovieList.add(four);
 
-        MovieData five = new MovieData("Contract on Her Name",2000,"https://assets3.thrillist.com/v1/image/2865018/1584x3000/scale;jpeg_quality=60.jpg","At less than 90 minutes, this dread-soaked, Southern-fried neo-noir doesn't waste time turning the screws on" +
+        MovieData five = new MovieData("Contract on Her Name",2000,"https://assets3.thrillist.com/v1/image/2866018/1584x3000/scale;jpeg_quality=60.jpg","At less than 90 minutes, this dread-soaked, Southern-fried neo-noir doesn't waste time turning the screws on" +
                 " its put-upon protagonist. Leigh (Bethany Anne Lind) is introduced having recently survived an attack and possibly killed a man lying dead on the floor" +
-                " of her garage. She knows exactly what happened; the viewer is kept in the dar",);
+                " of her garage. She knows exactly what happened; the viewer is kept in the dar", "five", 5.00f);
         actionMovieList.add(five);
 
-        Movie six = new Movie("Lost Bullet",5,2020,"Alban Lenoir, the star and co-writer of this proudly sturdy French thriller, has a rugged-yet-droll Statham-like quality," +
+        MovieData six = new MovieData("Lost Homeless",2020, "https://assets3.thrillist.com/v1/image/1895303/1584x1054/crop;jpeg_quality=60.jpg","Alban Lenoir, the star and co-writer of this proudly sturdy French thriller, has a rugged-yet-droll Statham-like quality," +
                 " that rogue-like charisma that never reads as desperation. He plays Lino, a hapless thief who turns into an unlikely car mechanic for the police," +
-                " and he spends most of the movie attempting to clear his name for a murder he didn't commit. ","https://assets3.thrillist.com/v1/image/2895303/1584x1054/crop;jpeg_quality=60.jpg");
+                " and he spends most of the movie attempting to clear his name for a murder he didn't commit.", "seven", 3.33f);
         actionMovieList.add(six);
 
-        Movie seven = new Movie(" Birds of Prey",3,2020,"Birds of Prey, the recently retitledSuicide Squad spin-off starring  Margot Robbie's joyfully defiant Harley Quinn, " +
-                "didn't exactly light up the box office in the same way last year's Oscar-nominated Joker movie did, but it's a lot more fun.",
-                "https://assets3.thrillist.com/v1/image/2865021/1584x3000/scale;jpeg_quality=60.jpg");
+        MovieData seven = new MovieData(" Predators",2020, "https://assets3.thrillist.com/v1/image/2865088/1584x3000/scale;jpeg_quality=60.jpg","Birds of Prey, the recently retitledSuicide Squad spin-off starring  Margot Robbie's joyfully defiant Harley Quinn, " +
+                "didn't exactly light up the box office in the same way last year's Oscar-nominated Joker movie did, but it's a lot more fun.", "dert", 1.23f
+                );
         actionMovieList.add(seven);
 
-        Movie eight= new Movie("Time to hunt",5,2020,"Unrelenting in its pursuit of scenarios where guys point big guns at each other in sparsely lit empty hallways, Time " +
+        MovieData eight= new MovieData("TimetoHunt",2000, "https://assets3.thrillist.com/v1/image/2776429/1584x3000/scale;jpeg_quality=60.jpg","Unrelenting in its pursuit of scenarios where guys point big guns at each other in sparsely lit empty hallways, Time " +
                 "to Hunt is a South Korean thriller that knows exactly what stylistic register it's playing in. A group of four friends, including Parasite and Train" +
-                " to Busan break-out Choi Woo-shik, knock over a gambling house,","https://assets3.thrillist.com/v1/image/2876429/1584x3000/scale;jpeg_quality=60.jpg");
+                " to Busan break-out Choi Woo-shik, knock over a gambling house", "timetohunt", 3.56f);
         actionMovieList.add(eight);
 
-        Movie nine = new Movie("Bad boys of Life",5,2020,"In what hasn't exactly been a great year for action movies so far, Bad Boys for Life has to be the biggest surprise." +
+        MovieData nine = new MovieData("BaD Gang",5, "https://assets3.thrillist.com/v1/image/2864988/1584x3000/scale;jpeg_quality=60.jpg", "In what hasn't exactly been a great year for action movies so far, Bad Boys for Life has to be the biggest surprise." +
                 " Given its lengthy production history, its January release date, and the departure of series director Michael Bay -- the action auteur gets a winking cameo here, " +
-                "perhaps taking a break from shooting Netflix's 6 Underground -- this movie could've been a disaster","https://assets3.thrillist.com/v1/image/2864985/1584x3000/scale;jpeg_quality=60.jpg");
+                "perhaps taking a break from shooting Netflix's 6 Underground -- this movie could've been a disaster", "bad gang", 2.35f);
         actionMovieList.add(nine);
 
-        Movie ten = new Movie("Mulan",5,2020,"The latest installment in Disney’s never-ending list of live-action remakes of animated classics was " +
+        MovieData ten = new MovieData("MuLANA",1998,"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/ww-1984-warner-1585834209.jpg?crop=1.00xw:0.801xh;0,0.0150xh&resize=768:*","The latest installment in Disney’s never-ending list of live-action remakes of animated classics was " +
                 "scheduled to hit theaters on March 27, but it was postponed until late July due to the coronavirus pandemic—but it looks like it'll be worth the wait. While this" +
-                " version doesn't have a talking dragon sidekick or multiple song-and dance-breaks, Mulan appears to be even more of a badass now than she was in 1998.",
-                "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/ww-1984-warner-1585834209.jpg?crop=1.00xw:0.801xh;0,0.0150xh&resize=768:*");
+                " version doesn't have a talking dragon sidekick or multiple song-and dance-breaks, Mulan appears to be even more of a badass now than she was in 1998.", "MUKAILA", 3.56F
+                );
         actionMovieList.add(ten);
 
-        Movie eleven = new Movie("Wonder Woman 1984",4,2017,"After the (much-deserved) massive success of 2017’s Wonder Woman, it makes sense that " +
+        MovieData eleven = new MovieData("WAKANDA Woman 1984",2012,"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/ww-1984-warner-1585834209.jpg?crop=1.00xw:0.801xh;0,0.0150xh&resize=768:*","After the (much-deserved) massive success of 2017’s Wonder Woman, it makes sense that " +
                 "director Patty Jenkins and star Gal Gadot would dive immediately back into the sequel. It’ll be out later this summer, with Wonder Woman going head-to-head with " +
                 "Kristen Wiig’s villainous Cheetah. Though it looked like Chris Pine’s role as Steve Trevor came to an end at the close of the first film, he does make an appearance" +
-                " in the sequel’s trailer, and that, combined with the fact that superhero movies play by no one’s rules, means anything could happen come August 14.","");
+                " in the sequel’s trailer, and that, combined with the fact that superhero movies play by no one’s rules, means anything could happen come August 14.","WAKANDA WOMANA", 2.45f);
         actionMovieList.add(eleven);
 
-        Movie twelve = new Movie("Black Widow",3,2018,"Since Scarlett Johansson’s Black Widow, a.k.a. Natasha Romanoff, first entered the Marvel Universe" +
+        MovieData twelve = new MovieData("Black Widow",2003,"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/ww-1984-warner-1585834209.jpg?crop=1.00xw:0.801xh;0,0.0150xh&resize=768:*","Since Scarlett Johansson’s Black Widow, a.k.a. Natasha Romanoff, first entered the Marvel Universe" +
                 " in Iron Man 2, the world has been holding its breath for a standalone movie. Those dreams will finally come true this year, as Black Widow is backed by her family–played b" +
-                "y Florence Pugh, Rachel Weisz, and David Harbour–on a mission to settle some unfinished business buried deep in her past.","");
+                "y Florence Pugh, Rachel Weisz, and David Harbour–on a mission to settle some unfinished business buried deep in her past.","Black widow", 3.5f);
         actionMovieList.add(twelve);
 
-        Movie thirteen = new Movie("No Time to Die",5,2019,"James Bond has a bit of a sexism problem, but the 25th installment in the British spy series " +
+        MovieData thirteen = new MovieData("No Time to Die",2010,"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/ww-1984-warner-1585834209.jpg?crop=1.00xw:0.801xh;0,0.0150xh&resize=768:*","James Bond has a bit of a sexism problem, but the 25th installment in the British spy series " +
                 "already looks to be miles ahead of its predecessors due to the fact that it was co-written by Killing Eve creator Phoebe Waller-Bridge and features a theme song performed " +
-                "by Billie Eilish. We can’t wait to see 007 go full Fleabag–but who will play his Hot Priest?!","");
+                "by Billie Eilish. We can’t wait to see 007 go full Fleabag–but who will play his Hot Priest?!","first", 3.56f);
         actionMovieList.add(thirteen);
 
-        Movie fourteen = new Movie("The Eternals",5,2020,"Just when you thought Marvel couldn’t find any more huge stars to join its cinematic universe... " +
+        MovieData fourteen = new MovieData("The Eternals",2000,"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/67334917-10157314311827488-1938253040570073088-o-0-1585754443.jpg?resize=768:*","Just when you thought Marvel couldn’t find any more huge stars to join its cinematic universe... " +
                 "That’s right, Angelina Jolie and Salma Hayek are now Avengers-adjacent, as are half the Stark children and, of course, #RippedKumailNanjiani. Almost all of them will play " +
                 "members of the titular alien race, who are working together to protect Earth from the Deviants, sworn enemies of the Eternals. Welcome to the next phase of the Marvel un" +
-                "iverse.","https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/67334917-10157314311827488-1938253040570073088-o-0-1585754443.jpg?resize=768:*");
+                "iverse.", "eternals", 2.34f);
         actionMovieList.add(fourteen);
 
-        Movie fifteen = new Movie("Top Gun: Maverick",4,2020,"Apparently, there’s no such thing as “too long” to wait between franchise installments" +
+        MovieData fifteen = new MovieData("Gunners: Maverick",2014,"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/67334917-10157314311827488-1938253040570073088-o-0-1585754443.jpg?resize=768:*","Apparently, there’s no such thing as “too long” to wait between franchise installments" +
                 ". Thirty-four years after the original Top Gun, Tom Cruise will reprise his role as Navy aviator Maverick. According to the official plot synopsis, he’ll be confronting" +
-                " ghosts from his past while leading a team of pilot trainees on a highly dangerous mission–should they choose to accept it. (Oops, wrong Tom Cruise franchise.)","");
+                " ghosts from his past while leading a team of pilot trainees on a highly dangerous mission–should they choose to accept it. (Oops, wrong Tom Cruise franchise.)","Gunners", 3.55f);
         actionMovieList.add(fifteen);
     }
 
-    public void fanasyGenerator(){
-        Movie one = new Movie("The Gentleman",4,2020,"Humor is such a subjective thing. It's easy to be ridiculous, or worse—boring. " +
-                "But 2020 boasts a number of films that look like they're destined to be comedic gold, or at least a great time at the theater (or in your living room). " +
-                "There are a couple reboots and sequels in here, plus " +
-                "a number of comedic superstars are back in a big way, thanks to Ghostbusters: Afterlife, Coming 2 America, and a few other revivals we have our eye on. " +
-                "(You can check out our 2019 list of the best comedy movies here.)",
-                "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/the-personal-history-of-david-copperfield-ztphdc-001-rgb-1-1598280580.jpg?crop=0.597xw:0.895xh;0.219xw,0.105xh&resize=980:*");
-        comedyMovieList.add(one);
+    public void fanasyGenerator() {
+        MovieData one = new MovieData("Fandora",2014,"https://assets3.thrillist.com/v1/image/1197945/1584x1056/crop;jpeg_quality=60;progressive.jpg","With F9 the next chapter in the NOS-powered Fast and Furious saga pushed to 2021 because of the outbreak" +
+                " of the coronavirus, Vin Diesel fans will have to make due with Bloodshot, a frenzied adaptation of a popular Valiant Comics title first published in the '90s." +
+                " Like many non-Fast thrillers from Diesel, the results are a mixed bag, emphasizing the star's muscular frame",
+                "Movieone", 3.00f);
+        fantasyMovieList.add(one);
+        MovieData two = new MovieData("Fantasy hangs",2020,"https://assets3.thrillist.com/v1/image/2110301/1584x1054/crop;jpeg_quality=60.jpg","A sequel to 2018's Walter Hill-like throwback The Debt Collector, which found the reliably bruising Scott Adkins playing a reluctant mob " +
+                "bagman named French, this buddy action comedy occasionally fails to pay up", "Quiet Holigang", 3.45f);
+        actionMovieList.add(two);
 
-        Movie two = new Movie("Yes, God, Yes",5,2019,"For anyone who had a very religious upbringing, this dramedy may be hilariously" +
-                " familiar. Teenager Alice (Dyer), growing up in the '00s, is stuck between the abstinence-only sex education she gets at school and the (super-normal) " +
-                "impulses she has as a teenager watching Titanic and sneaking onto AOL chatrooms. The film's not exactly a satire, but it does have some smart things to " +
-                "say about the hypocrisy of religious sex-ed as well as the harms of slut-shaming (poor Alice is falsely accused of performing sexual acts she's never " +
-                "even heard of). Even if you're less familiar with the subject matter, come for the sweet, awkward sexual awakening story.","https://pyxis.nymag.com/v1/imgs/643/974/18631087e962f91ec73181e057219a8e0c-sea-fever.rhorizontal.w700.jpg");
-        comedyMovieList.add(two);
+        MovieData three = new MovieData("Strike-Back",2019,"https://assets3.thrillist.com/v1/image/2882144/1584x1054/crop;jpeg_quality=60.jpg","After battling her way through an apocalyptic desert wasteland in Mad Max: Fury Road, punching her way" +
+                " through Berlin in Atomic Blonde, and tangling in the sky with the Fast and Furious crew, Charlize Theron gets her own superhero franchise with this curious " +
+                "adaptation of Greg Rucka's comic series focussed on a rag-tag group un-killable mercenaries","strike", 4.10f);
+        actionMovieList.add(three);
 
-        Movie three = new Movie("The King of Staten Island",4,2020,"An alternative history of what would have happened to Pete Davidson if " +
-                "he hadn't become an SNL star, it's a typical Judd Apatow \"lovable loser\" setup. Davidson's playing a lamer, but still funny version of himself, and digs " +
-                "surprisingly deep as his character has to " +
-                "face the trauma of his firefighter father's death (based partially on Davidson's real life). But the supporting cast is the real joy. Burr and Buscemi in" +
-                " particular are delightfully believable firefighters who become quasi-father figures; It's not as corny as it sounds, but it's got that trademark Apatow sweetness to make this an easy viewing.","https://pyxis.nymag.com/v1/imgs/16a/a64/40cb5a8974b941250852a5333fcadbc355-selah-and-the-spades.rhorizontal.w700.jpg");
-        comedyMovieList.add(three);
+        MovieData four = new MovieData("Conraction",2012,"https://assets3.thrillist.com/v1/image/2339863/1584x1054/crop;jpeg_quality=60.jpg","Tossing aside Thor's massive hammer and trimming his gnarly Avengers: Endgame beard, Chris Hemsworth picks up " +
+                "an assault rifle and gets to work in Extraction, a new Netflix shoot-em-up that re-teams the Australian actor with his former Marvel filmmaking buddies " +
+                "Joe and Anthony Russo,","contraction", 4.56f);
+        actionMovieList.add(four);
 
-        Movie four = new Movie("An American Pickle",5,2020,"Rogen perfectly plays two roles here: He's both Herschel, the 1919 Jewish factory worker who wakes up" +
-                " 100 years later after getting brined in a pickle vat (it's as weird as it sounds, but just go with it) and his ancestor, app developer Ben. What follows is a fish out of water " +
-                "tale with a twist—the film skewers everything from Twitter and hipsters to Hershel's century-old ignorance and callousness. It can be a bit inconsistent (the film tries to shift " +
-                "between barbed and wholesome, and the comedy sometimes comes off as too broad), but it has enough to say that it's salty-sweet where it counts.","https://pyxis.nymag.com/v1/imgs/8f2/ef7/033590384d179d00cda79d6d4c01a4d19f-bad-education.rhorizontal.w700.jpg");
-        comedyMovieList.add(four);
+        MovieData five = new MovieData("Contract on Her Name",2000,"https://assets3.thrillist.com/v1/image/2866018/1584x3000/scale;jpeg_quality=60.jpg","At less than 90 minutes, this dread-soaked, Southern-fried neo-noir doesn't waste time turning the screws on" +
+                " its put-upon protagonist. Leigh (Bethany Anne Lind) is introduced having recently survived an attack and possibly killed a man lying dead on the floor" +
+                " of her garage. She knows exactly what happened; the viewer is kept in the dar", "five", 5.00f);
+        actionMovieList.add(five);
 
-        Movie five = new Movie("I Used to Go Here",5,2020,"This one hits hilariously—and sometimes painfully—close to home for me. Kate wrote a book! And the cover (and sales)" +
-                " are terrible. She's an author! But her fiancé dumped her, and her book tour got cancelled. She gets invited to do a book reading by her old professor—Clement, perfectly playing that professor " +
-                "who's just on the wrong side of creepy. Then she just kind of...sticks around on campus, unsure where to go from here and hanging out with a bunch of current students. It's a sweet and honest " +
-                "look at the stresses and pains of being a 30-something (and a creative professional) who just doesn't feel like she can face the world ahead. It's also a pretty relevant quarantine watch, TBH.","https://pyxis.nymag.com/v1/imgs/17e/4fd/d075f49325b779620c215300ad19001be5-bull-.rhorizontal.w700.jpg");
-        comedyMovieList.add(five);
+        MovieData six = new MovieData("Lost Homeless",2020, "https://assets3.thrillist.com/v1/image/1895303/1584x1054/crop;jpeg_quality=60.jpg","Alban Lenoir, the star and co-writer of this proudly sturdy French thriller, has a rugged-yet-droll Statham-like quality," +
+                " that rogue-like charisma that never reads as desperation. He plays Lino, a hapless thief who turns into an unlikely car mechanic for the police," +
+                " and he spends most of the movie attempting to clear his name for a murder he didn't commit.", "seven", 3.33f);
+        actionMovieList.add(six);
 
-        Movie six = new Movie("Emma",4,2020,"This will be a controversial statement among my fellow MC editors, but Emma is my favorite Jane Austen book (I know!!). It's so snarky " +
-                "and has a deliriously happy ending without letting its fallible heroine off the hook for her (often-terrible) behavior. Beyond the effervescent Anya Taylor-Joy, consider at how many incredible actors " +
-                "are in this. Bill Nighy? Funny in everything! Josh O'Connor? Yes, that guy from The Crown! Miranda Hart? The best part of Spy! And it all came together brilliantly—I think my favorite part might have been " +
-                "Johnny Flynn as a very sexy Mr. Knightley. If you're looking for light and fluffy, this is the perfect pick.","https://pyxis.nymag.com/v1/imgs/612/c10/2a5b9a81d5f4045fc85b08126370337d22-0423-critics-ourmothers.rhorizontal.w700.jpg");
-        comedyMovieList.add(six);
+        MovieData seven = new MovieData(" Predators",2020, "https://assets3.thrillist.com/v1/image/2865088/1584x3000/scale;jpeg_quality=60.jpg","Birds of Prey, the recently retitledSuicide Squad spin-off starring  Margot Robbie's joyfully defiant Harley Quinn, " +
+                "didn't exactly light up the box office in the same way last year's Oscar-nominated Joker movie did, but it's a lot more fun.", "dert", 1.23f
+        );
+        actionMovieList.add(seven);
 
-        Movie seven = new Movie("Guns Akimbo",5,2020,"Post-Harry Potter, Radcliffe has done some weird and wacky stuff (and even when it doesn't work, I always appreciate the risk-taking)." +
-                " This feels like one of the ones that actually works. Right now on Rotten Tomatoes it's juuuust on the side of fresh in terms of positive reviews. All-around loser Miles gets forced into a gladiator fight to " +
-                "the death—guns are literally stapled to his hands. He has to team up with Nix (utter badass Weaving, who totally nailed it in Ready or Not) to save his girlfriend, the day, etc. Into it.","https://pyxis.nymag.com/v1/imgs/33f/390/6edd958eb00811ad57c1e5b7ac46afd517-the-half-of-it.rhorizontal.w700.jpg");
-        comedyMovieList.add(seven);
+        MovieData eight= new MovieData("TimetoHunt",2000, "https://assets3.thrillist.com/v1/image/2776429/1584x3000/scale;jpeg_quality=60.jpg","Unrelenting in its pursuit of scenarios where guys point big guns at each other in sparsely lit empty hallways, Time " +
+                "to Hunt is a South Korean thriller that knows exactly what stylistic register it's playing in. A group of four friends, including Parasite and Train" +
+                " to Busan break-out Choi Woo-shik, knock over a gambling house", "timetohunt", 3.56f);
+        actionMovieList.add(eight);
 
-        Movie eight = new Movie("The Climb",3,2019,"Kyle and Mike are two best friends who share a tight bond...right up until Mike sleeps with Kyle's fiancée. What comes next is a story of " +
-                "friendship, frustration, and love, packed alongside jokes funny that are relatable enough to make you feel like you know the characters in your real life. It's not often we see movies focused on male friendships, " +
-                "so The Climb is a breath of fresh air, in some cases quite literally.","https://pyxis.nymag.com/v1/imgs/2a8/f65/8c9b9568e38148a7cfb162208dc206b700-the-painter-and-the-thief.rhorizontal.w700.jpg");
-        comedyMovieList.add(eight);
+        MovieData nine = new MovieData("BaD Gang",5, "https://assets3.thrillist.com/v1/image/2864988/1584x3000/scale;jpeg_quality=60.jpg", "In what hasn't exactly been a great year for action movies so far, Bad Boys for Life has to be the biggest surprise." +
+                " Given its lengthy production history, its January release date, and the departure of series director Michael Bay -- the action auteur gets a winking cameo here, " +
+                "perhaps taking a break from shooting Netflix's 6 Underground -- this movie could've been a disaster", "bad gang", 2.35f);
+        actionMovieList.add(nine);
 
-        Movie nine = new Movie("Banana Split",3,2018,"Ugh, this looks so cute. April (Marks) gets dumped by her high school boyfriend (Sprouse, playing against type with a long and terrible haircut)," +
-                " only to fall in platonic love with his new girlfriend (Liberato). Think of it like Booksmart, but more of a love triangle. It includes badass music, witty banter, and killer supporting characters. It's not regular " +
-                "teen angst, it's cool teen angst. You should watch.","https://pyxis.nymag.com/v1/imgs/097/75f/c6a06e2e3960c3d7b5b8d4ef85e440b0c6-the-trip-to-greece.rhorizontal.w700.jpg");
-        comedyMovieList.add(nine);
+        MovieData ten = new MovieData("MuLANA",1998,"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/ww-1984-warner-1585834209.jpg?crop=1.00xw:0.801xh;0,0.0150xh&resize=768:*","The latest installment in Disney’s never-ending list of live-action remakes of animated classics was " +
+                "scheduled to hit theaters on March 27, but it was postponed until late July due to the coronavirus pandemic—but it looks like it'll be worth the wait. While this" +
+                " version doesn't have a talking dragon sidekick or multiple song-and dance-breaks, Mulan appears to be even more of a badass now than she was in 1998.", "MUKAILA", 3.56F
+        );
+        actionMovieList.add(ten);
 
-        Movie ten = new Movie("Uncorked",4,2019,"Part drama, part comedy (I also included this on my best drama movies list, don't @ me), this is a sweet story about following your dreams. Oh, and it just " +
-                "so happens to have some of the funniest banter in a film this year. What happens when you work at your dad's restaurant (Vance has never been better) but you want to become a sommelier? Athie is exceptional, hilarious, and " +
-                "irritated at having to explain what a sommelier is, and he is quietly determined. There isn't a wrong note in the whole thing.","https://pyxis.nymag.com/v1/imgs/a45/3a3/432616de261b752bdfe43f784dc1168cd6-ya-no-estoy-squi-im-no-longer-here.rhorizontal.w700.jpg");
-        comedyMovieList.add(ten);
+        MovieData eleven = new MovieData("WAKANDA Woman 1984",2012,"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/ww-1984-warner-1585834209.jpg?crop=1.00xw:0.801xh;0,0.0150xh&resize=768:*","After the (much-deserved) massive success of 2017’s Wonder Woman, it makes sense that " +
+                "director Patty Jenkins and star Gal Gadot would dive immediately back into the sequel. It’ll be out later this summer, with Wonder Woman going head-to-head with " +
+                "Kristen Wiig’s villainous Cheetah. Though it looked like Chris Pine’s role as Steve Trevor came to an end at the close of the first film, he does make an appearance" +
+                " in the sequel’s trailer, and that, combined with the fact that superhero movies play by no one’s rules, means anything could happen come August 14.","WAKANDA WOMANA", 2.45f);
+        actionMovieList.add(eleven);
 
-        Movie eleven = new Movie("The Lovebirds",5,2020,"Everyone's favorites, Issa Rae and Kumail Nanjiani, play a couple who find themselves caught up in a crime unexpectedly. As the two of them try to " +
-                "solve the case to clear their name, they get into predictably wacky, terrible situations. TBH, the fact that these two are costars and singularly funny all on their own means this is worth the watch. Critics were a bit " +
-                "divided, but pretty much everyone can agree its two stars were the best part. Count me in.","https://pyxis.nymag.com/v1/imgs/4ff/dc6/e7eabfca6c5acb30cd2837cc99359287a9-driveways.rhorizontal.w700.jpg");
-        comedyMovieList.add(eleven);
+        MovieData twelve = new MovieData("Black Widow",2003,"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/ww-1984-warner-1585834209.jpg?crop=1.00xw:0.801xh;0,0.0150xh&resize=768:*","Since Scarlett Johansson’s Black Widow, a.k.a. Natasha Romanoff, first entered the Marvel Universe" +
+                " in Iron Man 2, the world has been holding its breath for a standalone movie. Those dreams will finally come true this year, as Black Widow is backed by her family–played b" +
+                "y Florence Pugh, Rachel Weisz, and David Harbour–on a mission to settle some unfinished business buried deep in her past.","Black widow", 3.5f);
+        actionMovieList.add(twelve);
 
-        Movie twelve = new Movie("The Personal History of David Copperfield",3,2017,"I love seeing Dev Patel on any screen so, seeing him in The Personal History of David Copperfield—based on Charles Dickens'" +
-                "s most famous novel—will be my Christmas, birthday, and half-birthday present wrapped up all in one. Much like the book it's modeled after, the movie will follow the life of David Copperfield as he sets out to become a writer," +
-                " and promises to be as sharp-tongued as ever. Stay for the supporting cast, who are having so much fun that you're having fun just by being in the same room together. This has been delayed several times (but did premiere in the " +
-                "UK to some pretty incredible reviews) so this will be the best late summer present I needed.","https://pyxis.nymag.com/v1/imgs/171/c6b/a02ecc1b76190aed2e8b1606e52007669c-ghost-of-peter-seller.rhorizontal.w700.jpg");
-        comedyMovieList.add(twelve);
+        MovieData thirteen = new MovieData("No Time to Die",2010,"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/ww-1984-warner-1585834209.jpg?crop=1.00xw:0.801xh;0,0.0150xh&resize=768:*","James Bond has a bit of a sexism problem, but the 25th installment in the British spy series " +
+                "already looks to be miles ahead of its predecessors due to the fact that it was co-written by Killing Eve creator Phoebe Waller-Bridge and features a theme song performed " +
+                "by Billie Eilish. We can’t wait to see 007 go full Fleabag–but who will play his Hot Priest?!","first", 3.56f);
+        actionMovieList.add(thirteen);
 
-        Movie thirteen = new Movie("The SpongeBob Movie: Sponge on the Run",4,2020,"I love SpongeBob, and not just for the GIFs. The show and its sweet characters are an indelible part of my teen years (I maintain " +
-                "that you can still totally find it funny as an adult). The SpongeBob Movie: Sponge Out of Water was both critically loved and a box office hit, so the chances of a third movie were always good. I mean, Keanu Reeves, Awkwafina, " +
-                "and Snoop Dog will be in this. How can you not love it?","https://pyxis.nymag.com/v1/imgs/c6e/f39/e5fb0e74ad5c3a7cccd2b93a1434ea634b-miss-juneteenth.rhorizontal.w700.jpg");
-        comedyMovieList.add(thirteen);
+        MovieData fourteen = new MovieData("The Eternals",2000,"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/67334917-10157314311827488-1938253040570073088-o-0-1585754443.jpg?resize=768:*","Just when you thought Marvel couldn’t find any more huge stars to join its cinematic universe... " +
+                "That’s right, Angelina Jolie and Salma Hayek are now Avengers-adjacent, as are half the Stark children and, of course, #RippedKumailNanjiani. Almost all of them will play " +
+                "members of the titular alien race, who are working together to protect Earth from the Deviants, sworn enemies of the Eternals. Welcome to the next phase of the Marvel un" +
+                "iverse.", "eternals", 2.34f);
+        actionMovieList.add(fourteen);
 
-        Movie fourteen = new Movie("Fast & Furious 9",5,2020,"Also known as F9, the follow-up to 2017’s The Fate of the Furious picks up with Vin Diesel’s character, Dominic Toretto, who is now in semi-retirement on" +
-                " a farm and has a kid named after the late Paul Walker’s character. Charlize Theron and John Cena also star in the ninth movie of the franchise.","https://m.media-amazon.com/images/M/MV5BZWQ3ZmQ5OTAtMGYyOS00NTA0LThlMGItZDU3NTBlMWZjYzYwXkEyXkFqcGdeQXVyOTkwMTc4ODQ@._V1_UX99_CR0,0,99,99_AL_.jpg");
-        comedyMovieList.add(fourteen);
-
-
-        Movie fifteen = new Movie("The New Mutants",3,2020,"Maisie Williams stars as Rahne Sinclair/Wolfsbane, one of several teen mutants who are just discovering their powers while being " +
-                "hidden at a secret facility.","https://m.media-amazon.com/images/M/MV5BYzEzYWQyMTktN2ZjNi00ZTgyLWJlODItZjc3ZGYzOGM4NTM2XkEyXkFqcGdeQXVyNTYwNjM1MTQ@._V1_UY99_CR43,0,99,99_AL_.jpg");
-        comedyMovieList.add(fifteen);
+        MovieData fifteen = new MovieData("Gunners: Maverick",2014,"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/67334917-10157314311827488-1938253040570073088-o-0-1585754443.jpg?resize=768:*","Apparently, there’s no such thing as “too long” to wait between franchise installments" +
+                ". Thirty-four years after the original Top Gun, Tom Cruise will reprise his role as Navy aviator Maverick. According to the official plot synopsis, he’ll be confronting" +
+                " ghosts from his past while leading a team of pilot trainees on a highly dangerous mission–should they choose to accept it. (Oops, wrong Tom Cruise franchise.)","Gunners", 3.55f);
+        actionMovieList.add(fifteen);
 
     }
 
