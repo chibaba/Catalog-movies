@@ -6,12 +6,12 @@ import androidx.fragment.app.Fragment;
 
 import com.example.genremoviesincinema.ui.gallery.MovieData;
 
-public class DetailActivity {
+public class DetailActivity extends SingleFragmentActivity{
     public static final String MOVIE_OBJECT = "movie";
 
     @Override
     protected Fragment createFragment() {
-        MovieData movie = (Movie) getIntent().getSerializableExtra(MOVIE_OBJECT);
-        return DetailFragment.newInstance(movie)
+        MovieData movie = (MovieData) getIntent().getSerializableExtra(MOVIE_OBJECT);
+        return DetailFragment.newInstance(movie);
     }
 }

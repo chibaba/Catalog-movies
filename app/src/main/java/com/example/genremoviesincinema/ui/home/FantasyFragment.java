@@ -11,25 +11,32 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
+import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.genremoviesincinema.MovieAdapter;
+import com.example.genremoviesincinema.MovieSheet;
 import com.example.genremoviesincinema.R;
+import com.example.genremoviesincinema.ui.gallery.MovieData;
+
+import java.util.List;
 
 public class FantasyFragment extends Fragment {
 
-    private HomeViewModel homeViewModel;
+  RecyclerView dRecyclerView;
+  List<MovieData> fantasymovieList;
+  MovieSheet movieSheet;
+  MovieAdapter adapter;
 
-    public View onCreateView(@NonNull LayoutInflater inflater,
-                             ViewGroup container, Bundle savedInstanceState) {
-        homeViewModel =
-                new ViewModelProvider(this).get(HomeViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_home, container, false);
-        final TextView textView = root.findViewById(R.id.all_actions);
-        homeViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
-            @Override
-            public void onChanged(@Nullable String s) {
-                textView.setText(s);
-            }
-        });
-        return root;
-    }
+  public FantasyFragment() {
+
+  }
+  public static FantasyFragment newInstance(String str, String str2) {
+    FantasyFragment fragment = new FantasyFragment();
+    return fragment;
+  }
+  @Override
+  public void OnCreate(Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+    movieSheet = new MovieSheet();
+  }
 }
