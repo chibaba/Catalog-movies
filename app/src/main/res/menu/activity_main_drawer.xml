@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-
-    tools:showIn="navigation_view">
-
+    tools:showin="navigation_view">
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_home"
-            android:icon="@drawable/action"
-            android:title="@string/menu_home" />
+            android:id="@+id/nav_action"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/action_movie"
+            android:checked="true"/>
+
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/fantasy"
-            android:title="@string/menu_gallery" />
+            android:id="@+id/nav_fantasy"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/fantasy_movie"/>
+
+
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/romance"
-            android:title="@string/menu_slideshow" />
+            android:id="@+id/nav_roman"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/romantic_movie"/>
     </group>
 </menu>
