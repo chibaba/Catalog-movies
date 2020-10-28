@@ -1,5 +1,6 @@
 package com.example.genremoviesincinema.ui.home;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -38,5 +39,15 @@ public class FantasyFragment extends Fragment {
   public void OnCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     movieSheet = new MovieSheet();
+
+    fantasymovieList = movieSheet.getFantasyMovieList();
+    adapter.setOnAdapterListener(new MovieAdapter.CustomeAdapterListener() {
+      @Override
+      public void adapterListener(int position) {
+        MovieData movie = fantasymovieList.get(position) {
+          Intent intent = new Intent(getActivity(), )
+        }
+      }
+    });
   }
 }
