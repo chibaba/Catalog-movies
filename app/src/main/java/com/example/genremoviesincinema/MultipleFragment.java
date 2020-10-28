@@ -2,63 +2,98 @@ package com.example.genremoviesincinema;
 
 import android.os.Bundle;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBarDrawerToggle;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.view.GravityCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 import android.view.LayoutInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import androidx.appcompat.widget.Toolbar;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link MultipleFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
-public class MultipleFragment extends Fragment {
+import com.example.genremoviesincinema.ui.gallery.ActionFragment;
+import com.example.genremoviesincinema.ui.home.FantasyFragment;
+import com.example.genremoviesincinema.ui.slideshow.RomanceFragment;
+import com.google.android.material.navigation.NavigationView;
 
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
+import java.util.Objects;
 
-    // TODO: Rename and change types of parameters
-    private String mParam1;
-    private String mParam2;
 
-    public MultipleFragment() {
-        // Required empty public constructor
-    }
-
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment MultipleFragment.
-     */
-    // TODO: Rename and change types and number of parameters
-    public static MultipleFragment newInstance(String param1, String param2) {
-        MultipleFragment fragment = new MultipleFragment();
-        Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
-        fragment.setArguments(args);
-        return fragment;
-    }
-
+public abstract class MultipleFragment extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
+    DrawerLayout drawer;
+    protected  abstract Fragment createFragment();
     @Override
-    public void onCreate(Bundle savedInstanceState) {
+    protected  void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
+        setContentView(R.layout.activity_main);
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+
+        Objects.requireNonNull(getSupportActionBar()).setDisplayShowTitleEnabled(false);
+
+        NavigationView navigationView = findViewById(R.id.nav_view);
+        navigationView.setNavigationItemSelectedListener(this);
+
+        drawer=findViewById(R.id.drawer_layout);
+        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawer, toolbar,R.string.nav_open_drawer, R.string.nav_close_drawer);
+
+        drawer.addDrawerListener(toggle);
+        drawer.addDrawerListener(toggle);
+        toggle.syncState();
+
+        FragmentManager fragile = getSupportFragmentManager();
+        Fragment fragment = fragile.findFragmentById(R.id.fragment_container);
+        if(fragment == null) {
+            fragment = createFragment();
+            fragile.beginTransaction()
+                    .add(R.id.fragment_container, fragment)
+                    .commit();
         }
     }
+    @Override
+    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+        int id = item.getItemId();
+        Fragment fragment = null;
+        FragmentTransaction ft;
+
+        switch (id){
+            case R.id.nav_action:
+                fragment = new ActionFragment();
+                break;
+            case R.id.nav_fantasy:
+                fragment = new FantasyFragment();
+                break;
+
+            case R.id.nav_roman:
+                fragment = new RomanceFragment();
+                break;
+
+        }
+        if(fragment != null) {
+            ft = getSupportFragmentManager().beginTransaction();
+            ft.replace(R.id.fragment_container, fragment);
+            ft.commit();
+        }
+
+        DrawerLayout drawer = findViewById(R.id.drawer_layout);
+        drawer.closeDrawer(GravityCompat.START);
+        return true;
+    }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.template, container, false);
+    public void onBackPressed() {
+        super.onBackPressed();
+        drawer = findViewById(R.id.drawer_layout);
+        drawer.closeDrawer(GravityCompat.START);
+
+
     }
+
+
 }

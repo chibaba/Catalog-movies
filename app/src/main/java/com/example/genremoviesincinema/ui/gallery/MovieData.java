@@ -7,11 +7,15 @@ public class MovieData implements Serializable {
     private int year;
     private  String image;
     private String  description;
+    private String text;
+    private  Boolean rating;
 
-    public MovieData(String name, int year, String image, String description) {
+    public MovieData(String name, int year, String image, String description, String text, boolean rating) {
         this.name = name;
         this.year = year;
         this.image = image;
+        this.text = text;
+        this.rating = rating;
         this.description = description;
     }
 
@@ -37,6 +41,20 @@ public class MovieData implements Serializable {
 
     public void setImage(String image) {
         this.image = image;
+    }
+    public String getText() {
+        return text;
+    }
+
+    public void setRating(boolean ratings) {
+        this.rating = rating;
+    }
+    public float getRating() {
+        return rating;
+    }
+
+    public void setText (String text) {
+        this.text = text;
     }
 
     public String getDescription() {
