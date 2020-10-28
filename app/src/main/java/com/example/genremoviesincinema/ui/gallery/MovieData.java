@@ -8,9 +8,9 @@ public class MovieData implements Serializable {
     private  String image;
     private String  description;
     private String text;
-    private  Boolean rating;
+    private  float rating;
 
-    public MovieData(String name, int year, String image, String description, String text, boolean rating) {
+    public MovieData(String name, int year, String image, String description, String text, float rating) {
         this.name = name;
         this.year = year;
         this.image = image;
@@ -46,7 +46,7 @@ public class MovieData implements Serializable {
         return text;
     }
 
-    public void setRating(boolean ratings) {
+    public void setRating(float ratings) {
         this.rating = rating;
     }
     public float getRating() {
