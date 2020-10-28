@@ -1,64 +1,89 @@
 package com.example.genremoviesincinema;
 
+import android.net.Uri;
 import android.os.Bundle;
 
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.RatingBar;
+import android.widget.TextView;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link DetailFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
+import com.bumptech.glide.Glide;
+import com.example.genremoviesincinema.ui.gallery.MovieData;
+
+import java.util.Objects;
+
+
 public class DetailFragment extends Fragment {
 
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
-
-    // TODO: Rename and change types of parameters
-    private String mParam1;
-    private String mParam2;
+    ImageView topImage,real;
+    TextView TV_movietitle, TV_moviestory,TV_date;
+    RatingBar bar;
+    MovieData movie;
 
     public DetailFragment() {
         // Required empty public constructor
     }
 
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment DetailFragment.
-     */
-    // TODO: Rename and change types and number of parameters
-    public static DetailFragment newInstance(String param1, String param2) {
+    public static DetailFragment newInstance(MovieData movie){
+        Bundle bundle = new Bundle();
+        bundle.putSerializable(DetailActivity.MOVIE_OBJECT,movie);
         DetailFragment fragment = new DetailFragment();
-        Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
-        fragment.setArguments(args);
+        fragment.setArguments(bundle);
         return fragment;
     }
+
+
+
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
-        }
+        assert getArguments() != null;
+        movie = (MovieData) getArguments().getSerializable(DetailActivity.MOVIE_OBJECT);
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_detail, container, false);
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.fragment_detail, container, false);
+        bar = view.findViewById(R.id.ratingBar2);
+        topImage = view.findViewById(R.id.toolimage);
+        real = view.findViewById(R.id.imagetosee);
+        TV_movietitle = view.findViewById(R.id.movtitle);
+        TV_moviestory = view.findViewById(R.id.storymode);
+        TV_date = view.findViewById(R.id.textdate);
+
+
+
+
+        Glide.with(requireActivity())
+                .asDrawable()
+                .load(Uri.parse(movie.getImage()))
+                .placeholder(R.drawable.logo)
+                .into(topImage);
+
+        Glide.with(requireActivity())
+                .asBitmap()
+                .load(Uri.parse(movie.getImage()))
+                .placeholder(R.drawable.logo)
+                .into(real);
+        TV_movietitle.setText(movie.getName());
+        TV_moviestory.setText(movie.getDescription());
+        TV_date.setText(String.valueOf(movie.getYear()));
+        bar.setRating(movie.getRating());
+
+        //Toolbar toolbar = view.findViewById(R.id.toolbarsecond);
+        AppCompatActivity activity = (AppCompatActivity) getActivity();
+        assert activity != null;
+        activity.getSupportActionBar();
+
+
+
+        return view;
     }
 }
