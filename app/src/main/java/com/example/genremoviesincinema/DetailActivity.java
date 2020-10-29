@@ -11,7 +11,7 @@ public class DetailActivity extends SingleFragmentActivity{
 
     @Override
     protected Fragment createFragment() {
-        MovieData movie = (MovieData) getIntent().getSerializableExtra(MOVIE_OBJECT);
+        MovieData movie = (MovieData)getIntent().getSerializableExtra(MOVIE_OBJECT);
         return DetailFragment.newInstance(movie);
     }
 }
