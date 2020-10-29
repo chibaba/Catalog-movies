@@ -49,12 +49,17 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.MovieHolder>
         MovieData movie = movies.get(position);
         holder.TV_title.setText(movie.getName());
         holder.TV_year.setText(String.valueOf(movie.getYear()));
-        holder.TV_description.setText(movie.getDescription().substring(0,200).concat("..."));
+
+        if(movie.getDescription().length() < 199){
+            holder.TV_description.setText(movie.getDescription());
+        }else{
+            holder.TV_description.setText(movie.getDescription().substring(0,200).concat("..."));
+        }
         holder.TV_ratings.setRating(movie.getRating());
         Glide.with(context)
                 .asBitmap()
                 .load(Uri.parse(movie.getImage()))
-                .placeholder(R.drawable.ic_menu_camera)
+                .placeholder(R.drawable.logo)
                 .into(holder.image);
 
     }

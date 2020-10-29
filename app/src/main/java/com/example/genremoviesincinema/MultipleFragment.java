@@ -25,7 +25,7 @@ import com.google.android.material.navigation.NavigationView;
 import java.util.Objects;
 
 
-public abstract class MultipleFragment extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
+public abstract class   MultipleFragment extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     DrawerLayout drawer;
     protected  abstract Fragment createFragment();
     @Override
@@ -66,11 +66,11 @@ public abstract class MultipleFragment extends AppCompatActivity implements Navi
             case R.id.nav_action:
                 fragment = new ActionFragment();
                 break;
-            case R.id.nav_fantasy:
+            case R.id.nav_fanatsy:
                 fragment = new FantasyFragment();
                 break;
 
-            case R.id.nav_roman:
+            case R.id.nav_romance:
                 fragment = new RomanceFragment();
                 break;
 
