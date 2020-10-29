@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">Genre Movies in Cinema</string>
     <string name="action_movie">Best of Action Movies</string>
-    <string name="fantasy_movie">Best of Comedy Movies</string>
-    <string name="romantic_movie">Best of Drama Movies</string>
+    <string name="fantasy_movie">Best of Fantasy Movies</string>
+    <string name="romantic_movie">Best of Romantic Movies</string>
     <string name="username">shootme@gmail.com</string>
     <string name="image_description">Image Description</string>
     <string name="Present_Genre">Present Genre</string>
