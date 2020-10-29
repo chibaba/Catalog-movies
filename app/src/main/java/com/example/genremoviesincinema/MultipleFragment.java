@@ -32,8 +32,8 @@ public abstract class   MultipleFragment extends AppCompatActivity implements Na
     protected  void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+        Toolbar toolba = findViewById(R.id.toolbar);
+//        setSupportActionBar(toolba);
 
         Objects.requireNonNull(getSupportActionBar()).setDisplayShowTitleEnabled(false);
 
@@ -41,7 +41,7 @@ public abstract class   MultipleFragment extends AppCompatActivity implements Na
         navigationView.setNavigationItemSelectedListener(this);
 
         drawer=findViewById(R.id.drawer_layout);
-        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawer, toolbar,R.string.nav_open_drawer, R.string.nav_close_drawer);
+        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawer, toolba,R.string.nav_open_drawer, R.string.nav_close_drawer);
 
         drawer.addDrawerListener(toggle);
         drawer.addDrawerListener(toggle);
