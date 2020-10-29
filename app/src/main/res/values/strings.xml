@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">Genre Movies in Cinema</string>
     <string name="action_movie">Best of Action Movies</string>
-    <string name="fantasy_movie">Best of Comedy Movies</string>
-    <string name="romantic_movie">Best of Drama Movies</string>
+    <string name="fantasy_movie">Best of Fantasy Movies</string>
+    <string name="romantic_movie">Best of Romantic Movies</string>
     <string name="username">shootme@gmail.com</string>
     <string name="image_description">Image Description</string>
     <string name="Present_Genre">Present Genre</string>
@@ -16,7 +16,7 @@
     <string name="image_view">Image View</string>
     <string name="story_line">Story line</string>
     <string name="complete_story">Full story</string>
-    <string name="genre_names">Genre names</string>
+    <string name="genre_names">Genre Movies collect...</string>
     <string name="Action_movie">Best of Action Movies</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
